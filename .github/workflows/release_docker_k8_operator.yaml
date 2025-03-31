@@ -1,4 +1,4 @@
-name: K8 Operator Release Image
+name: Release K8 Operator Docker Image
 on:
     push:
         tags:
