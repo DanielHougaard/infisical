@@ -142,6 +142,9 @@ type InfisicalSecretSpec struct {
 	// +kubebuilder:validation:Optional
 	ManagedKubeConfigMapReferences []ManagedKubeConfigMapConfig `json:"managedKubeConfigMapReferences"`
 
+	// +kubebuilder:validation:Required
+	AdditionalFields []string `json:"additionalFields"`
+
 	// +kubebuilder:default:=60
 	ResyncInterval int `json:"resyncInterval"`
 
