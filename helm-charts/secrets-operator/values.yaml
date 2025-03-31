@@ -32,7 +32,7 @@ controllerManager:
         - ALL
     image:
       repository: infisical/kubernetes-operator
-      tag: <helm-pr-will-update-this-automatically>
+      tag: v1.4.7
     resources:
       limits:
         cpu: 500m
